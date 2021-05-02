@@ -3,5 +3,5 @@
     <string name="adv_text">Введите рекламный текст</string>
     <string name="allbutton">Рекламировать всем</string>
     <string name="selectbtn">Рассылка с доступным интернетом</string>
-
+    <string name="btn">Рассылка с обратной связью</string>
 </resources>

@@ -21,5 +21,9 @@ var myIntent = Intent("ru.myitacademy.samsung.advertising.POST")
 fun selectPost(view: View){
     sendOrderedBroadcast(myIntent,Manifest.permission.INTERNET)
 }
-
+ fun backPost(view:View){
+     sendOrderedBroadcast(myIntent,null,
+                          MyReceiver(),null,0,"NewPost",
+           Bundle().apply{putString("strEx",findViewById<EditText>(R.id.advtxt).text.toString())})
+ }
 }
