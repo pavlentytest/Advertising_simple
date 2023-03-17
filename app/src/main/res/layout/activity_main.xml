@@ -22,16 +22,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/allbtn"
         android:text="@string/allbutton"/>
-   <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/selectbtn"
-        android:text="@string/selectbtn"
-        android:onClick="selectPost"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tbtn"
-        android:text="@string/btn"
-        android:onClick="backPost"/>
+
 </LinearLayout>
